@@ -1,0 +1,25 @@
+/* styles.css */
+
+/* Estilo básico para os links da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Estilo para os links ativos (destacados) */
+  nav a.active {
+    color: #007bff;
+  }
+  
