@@ -1,7 +1,7 @@
 // REQUISIÇÕES HTTP
 // Quadro 37 – Carregamento de componente montado
 
-import React, { useState, useEffect } from "React";
+import React, { useState, useEffect } from "react";
 function DataComponent() {
   const [dados, setData] = useState(null);
   useEffect(() => {

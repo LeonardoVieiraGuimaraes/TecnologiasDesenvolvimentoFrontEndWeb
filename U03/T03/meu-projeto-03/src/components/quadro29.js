@@ -1,9 +1,10 @@
 // NAVEGAÇÃO E ATIVOS REACT
 // Quadro 29 – Utilização
 
-import React from "React";
+import React from "react"; // 
 import logo from "./assets/logo.png";
-import "./styles.CSS";
+import "./styles.css"; // Renomeie para 'styles.css' com letras minúsculas
+
 function App() {
   return (
     <div>
@@ -12,4 +13,6 @@ function App() {
     </div>
   );
 }
+
 export default App;
+

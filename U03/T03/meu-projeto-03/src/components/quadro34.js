@@ -1,15 +1,20 @@
 // CRIANDO ROTAS
 // Quadro 34 – Navegação programática
+import React from 'react';
+import { useHistory } from 'react-router-dom';
 
-importar { useHistory } de 'React-router-dom';
 function HomePage() {
-let history = useHistory();
-vamos navegarToAboutPage = () => {
-history.push('/sobre');
+  let history = useHistory();
+
+  const navigateToAboutPage = () => {
+    history.push('/sobre');
+  };
+
+  return (
+    <button onClick={navigateToAboutPage}>
+      Ir para a página Sobre
+    </button>
+  );
 }
-retornar (
-<button onClick={navigateToAboutPage}>
-Ir para a página Sobre
-</button>
-);
-}
+
+export default HomePage;
