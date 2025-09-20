@@ -5,6 +5,8 @@ import About from "./components/About";
 import Contador from "./components/Contador";
 import './styles/styles.css'; // Importe o arquivo CSS
 import Midia from "./components/Midia";
+import NameList from "./components/NameList";
+
 
 function App() {
   return (
@@ -24,16 +26,21 @@ function App() {
             <li>
               <Link to="/midia" className="nav-link">Midia</Link>
             </li>
+            <li>
+              <Link to="/namelista" className="nav-link">Name Lista</Link>
+            </li>
           </ul>
         </nav>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contador" element={<Contador />} />
           <Route path="/midia" element={<Midia />} />
+          <Route path="/namelista" element={<NameList />} />
+          
         </Routes>
       </div>
+
     </Router>
   );
 }
